@@ -85,7 +85,7 @@ config 泄漏 · Shell 环境变量 · MCP 密钥 / HTTP · 非官方 API · OAu
 ## 三步上手
 
 1. 从 [safeclaude.net](https://www.safeclaude.net/) 下载并安装  
-2. 打开应用 → 进入「环境合规」→ 点击「检测环境」  
+2. 打开应用 → 进入「风险速查」→ 点击「检测环境」  
 3. 按提示处理高风险项；Pro 用户可一键修复后再次扫描验证  
 
 ---
