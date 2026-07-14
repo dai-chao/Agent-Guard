@@ -10,9 +10,6 @@
   <a href="https://www.safeclaude.net/">https://www.safeclaude.net/</a>
 </p>
 
-<p align="center">
-  <img src="assets/icon.png" alt="Agent Guard" width="96" />
-</p>
 
 ---
 
