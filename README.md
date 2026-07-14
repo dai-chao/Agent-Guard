@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://download.safeclaude.net/8164e1c89188201096be1fe4826abae3.png" alt="Agent Guard" width="96" />
+  <img src="https://download.safeclaude.net/8164e1c89188201096be1fe4826abae3.png" alt="Agent Guard" width="680" />
 </p>
 
 ---
@@ -99,8 +99,8 @@ config 泄漏 · Shell 环境变量 · MCP 密钥 / HTTP · 非官方 API · OAu
 - **数据不上云**  
 - 自动修复前备份原配置，可随时回滚  
 
-
 ---
+
 
 <p align="center">
   <strong>Agent Guard</strong> — 本机 AI Agent 环境合规检测与修复<br/>
