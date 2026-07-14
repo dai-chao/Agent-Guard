@@ -101,6 +101,25 @@ config 泄漏 · Shell 环境变量 · MCP 密钥 / HTTP · 非官方 API · OAu
 
 ---
 
+## 交流群
+
+**一群已满，请加入二群。**
+
+扫码加入 Discord / Telegram 二群，交流环境合规与使用问题：
+
+<p align="center">
+  <a href="https://discord.gg/vBqHjP2zs"><img src="https://download.safeclaude.net/discord-qr.png" alt="Discord 二群" width="200" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://telegram.me/+q9F4tFkzsjY4ZTk1"><img src="https://download.safeclaude.net/telegram-qr.png" alt="Telegram 二群" width="200" /></a>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/vBqHjP2zs">Discord 二群</a>
+  &nbsp;·&nbsp;
+  <a href="https://telegram.me/+q9F4tFkzsjY4ZTk1">Telegram 二群</a>
+</p>
+
+---
 
 <p align="center">
   <strong>Agent Guard</strong> — 本机 AI Agent 环境合规检测与修复<br/>
