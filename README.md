@@ -14,21 +14,28 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/扫描-免费-success" alt="扫描免费" />
-  <img src="https://img.shields.io/badge/一键修复-Pro-orange" alt="一键修复 Pro" />
-  <img src="https://img.shields.io/badge/数据-不上云-blue" alt="数据不上云" />
-  <img src="https://img.shields.io/badge/平台-macOS%20%7C%20Windows-lightgrey" alt="平台" />
+  扫描免费　·　一键修复 Pro　·　数据不上云　·　macOS / Windows
 </p>
 
-| 6 款 Agent | 20+ 风险信号 | 红 / 黄 / 绿合规灯 | 修复前自动备份 |
-|:----------:|:------------:|:------------------:|:--------------:|
-| Claude Code · Cursor · Codex · Gemini · Windsurf · Hermes | 代理 · 时区 · MCP · 端点… | 本机评分一目了然 | `~/.agent-guard/backups/` |
+| 主流 Agent 全覆盖 | 20+ 风险信号 | 红 / 黄 / 绿合规灯 | 修复前自动备份 |
+|:----------------:|:------------:|:------------------:|:--------------:|
+| Cursor · Claude Code · Codex · Gemini · Windsurf · Hermes 等市面热门 Agent | 代理 · 时区 · MCP · 端点… | 本机评分一目了然 | `~/.agent-guard/backups/` |
 
 <p align="center">
   <img src="https://download.safeclaude.net/8164e1c89188201096be1fe4826abae3.png" alt="Agent Guard 环境合规检测结果示意：合规评分与可修复风险项" width="680" />
 </p>
 
 <p align="center"><b><a href="https://www.safeclaude.net/">免费扫描本机环境 →</a></b>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki/Getting-Started">三步上手</a>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki">Wiki</a></p>
+
+<p align="center">
+  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg"><strong>下载 macOS Apple Silicon</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg"><strong>下载 macOS Intel</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe"><strong>下载 Windows</strong></a>
+</p>
+
+<p align="center"><sub>v1.0.5 · 环境扫描免费 · 一键修复需 Pro</sub></p>
 
 > 做的是本机环境信号治理，**不保证账号绝对安全**，也不提供绕过风控的能力。
 
@@ -55,7 +62,7 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 打开「环境合规」一键检测。**所有扫描数据留在本机，不上云。**
 
-- **6** 款产品合规画像
+- 市面主流 Agent 合规画像（持续扩充）
 - **20+** 环境风险信号
 - **一键修复**（Pro）
 
@@ -106,7 +113,15 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 | Windows | x64 |
 | Linux | 暂不支持 |
 
-安装包与版本信息见 [官网下载页](https://www.safeclaude.net/)。
+安装包 **v1.0.5** 直链：
+
+| 平台 | 下载 |
+|------|------|
+| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg) |
+| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg) |
+| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe) |
+
+更多版本见 [官网下载页](https://www.safeclaude.net/)。
 
 ---
 
@@ -128,7 +143,10 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ## 下载与上手
 
-1. 从 [safeclaude.net](https://www.safeclaude.net/) 下载并安装（环境扫描免费 · 一键修复需 Pro）
+1. 下载安装（**v1.0.5**）：
+   - [macOS Apple Silicon](https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg)
+   - [macOS Intel](https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg)
+   - [Windows](https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe)
 2. 打开应用 →「环境合规」→「检测环境」
 3. 按提示处理高风险项；Pro 可一键修复后再次扫描验证
 
