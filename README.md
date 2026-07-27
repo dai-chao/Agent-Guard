@@ -1,16 +1,36 @@
 # Agent Guard
 
-本机 AI Agent **环境合规检测与修复** —— 发现代理泄漏、时区指纹不一致、配置残留、MCP 明文密钥等风控信号，降低账号封禁风险。
+### 你的 `.zshrc` 里可能还留着 `HTTPS_PROXY` 和 `ANTHROPIC_BASE_URL`  
+### 时区是 `UTC`，出口 IP 却在亚洲——这类信号正在叠加成封号画像
 
-覆盖 Claude Code · Cursor · Codex · Gemini · Windsurf · Hermes
+**Agent Guard** 在本机一键扫描 AI Agent 环境：代理泄漏、时区指纹、配置残留、MCP 明文密钥……发现问题可修。数据不上云。
 
 <p align="center">
-  <a href="https://www.safeclaude.net/"><strong>官网 · 立即下载 →</strong></a>
+  <a href="https://www.safeclaude.net/"><img src="https://img.shields.io/badge/官网下载-safeclaude.net-111111?style=for-the-badge" alt="官网下载" /></a>
+  &nbsp;
+  <a href="https://github.com/dai-chao/Agent-Guard/wiki"><img src="https://img.shields.io/badge/Wiki-使用文档-2F6FED?style=for-the-badge" alt="Wiki" /></a>
+  &nbsp;
+  <a href="https://github.com/dai-chao/Agent-Guard/discussions"><img src="https://img.shields.io/badge/Discussions-反馈交流-6F42C1?style=for-the-badge" alt="Discussions" /></a>
 </p>
 
 <p align="center">
-  <img src="https://download.safeclaude.net/8164e1c89188201096be1fe4826abae3.png" alt="Agent Guard 环境合规检测结果示意" width="680" />
+  <img src="https://img.shields.io/badge/扫描-免费-success" alt="扫描免费" />
+  <img src="https://img.shields.io/badge/一键修复-Pro-orange" alt="一键修复 Pro" />
+  <img src="https://img.shields.io/badge/数据-不上云-blue" alt="数据不上云" />
+  <img src="https://img.shields.io/badge/平台-macOS%20%7C%20Windows-lightgrey" alt="平台" />
 </p>
+
+| 6 款 Agent | 20+ 风险信号 | 红 / 黄 / 绿合规灯 | 修复前自动备份 |
+|:----------:|:------------:|:------------------:|:--------------:|
+| Claude Code · Cursor · Codex · Gemini · Windsurf · Hermes | 代理 · 时区 · MCP · 端点… | 本机评分一目了然 | `~/.agent-guard/backups/` |
+
+<p align="center">
+  <img src="https://download.safeclaude.net/8164e1c89188201096be1fe4826abae3.png" alt="Agent Guard 环境合规检测结果示意：合规评分与可修复风险项" width="680" />
+</p>
+
+<p align="center"><b><a href="https://www.safeclaude.net/">免费扫描本机环境 →</a></b>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki/Getting-Started">三步上手</a>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki">Wiki</a></p>
+
+> 做的是本机环境信号治理，**不保证账号绝对安全**，也不提供绕过风控的能力。
 
 ---
 
