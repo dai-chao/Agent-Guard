@@ -16,6 +16,15 @@
 
 Claude Code、Cursor、Codex、Gemini、Windsurf、Hermes。检测项见 [检测项说明](Detection-Items)。
 
+## 升级到 v1.1.0 后该做什么？
+
+1. 打开「防封扫描」先跑一轮完整检测  
+2. 优先清红灯（代理残留、配置泄漏、明文密钥、非官方端点）  
+3. 再看防护与隐私扫描  
+4. 复扫一次留底  
+
+详见 [更新日志](Changelog) 与 [完整说明](https://www.safeclaude.net/changelog-1.1.0.html)。
+
 ## 支持 Linux 吗？
 
 暂不支持。当前支持 macOS（Apple Silicon / Intel）与 Windows x64。

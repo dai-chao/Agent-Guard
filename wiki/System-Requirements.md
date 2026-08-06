@@ -7,7 +7,7 @@
 | Windows | x64 | 支持 |
 | Linux | — | 暂不支持 |
 
-安装包与版本号以 [官网下载页](https://www.safeclaude.net/) 为准。
+安装包与版本号以 [官网下载页](https://www.safeclaude.net/#download) 为准。当前推荐 **v1.1.0**，说明见 [更新日志](Changelog)。
 
 ## 使用建议
 

@@ -28,16 +28,30 @@
 <p align="center"><b><a href="https://www.safeclaude.net/">免费扫描本机环境 →</a></b>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki/Getting-Started">三步上手</a>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki">Wiki</a></p>
 
 <p align="center">
-  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg"><strong>下载 macOS Apple Silicon</strong></a>
+  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg"><strong>下载 macOS Apple Silicon</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg"><strong>下载 macOS Intel</strong></a>
+  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg"><strong>下载 macOS Intel</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe"><strong>下载 Windows</strong></a>
+  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe"><strong>下载 Windows</strong></a>
 </p>
 
-<p align="center"><sub>v1.0.5 · 环境扫描免费 · 一键修复需 Pro</sub></p>
+<p align="center"><sub>v1.1.0 · 环境扫描免费 · 一键修复需 Pro</sub></p>
 
 > 做的是本机环境信号治理，**不保证账号绝对安全**，也不提供绕过风控的能力。
+
+---
+
+## 最新：v1.1.0（2026-08-06）
+
+最近封号又紧，很多手法刚在社区传开，本机里对应的代理残留、中转端点、明文 Key 可能早就躺着了。这版重点就一件事：**新闻里出什么新风险，尽快加进检测项**，别等号没了才发现。
+
+- **跟进封号热点**：跟踪 Claude / Cursor / Codex 等平台风控与社区复盘，把新环境信号沉淀为可复现检测规则，高危信号覆盖加宽
+- **模块升级一轮**：防封扫描、防护、隐私扫描、系统诊断、调用日志、Skill 整理
+- **修复闭环**：扫完能修的赶紧修，复扫确认绿灯
+
+升级后建议：先跑一轮「防封扫描」→ 优先清红灯 → 再复扫一次留底。
+
+完整说明：[changelog-1.1.0](https://www.safeclaude.net/changelog-1.1.0.html) · [官网下载](https://www.safeclaude.net/#download)
 
 ---
 
@@ -60,11 +74,11 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ### 免费扫描本机环境
 
-打开「环境合规」一键检测。**所有扫描数据留在本机，不上云。**
+打开「防封扫描」一键检测。**所有扫描数据留在本机，不上云。**
 
-- 市面主流 Agent 合规画像（持续扩充）
-- **20+** 环境风险信号
-- **一键修复**（Pro）
+- 市面主流 Agent 合规画像（持续扩充；v1.1.0 按封号热点加码检测项）
+- **20+** 环境风险信号，高危信号覆盖加宽
+- **一键修复**（Pro）；配套防护、隐私扫描、系统诊断、调用日志、Skill 整理
 
 ### 分层扫描
 
@@ -92,7 +106,7 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ### 发现问题，一键修复（Pro）
 
-1. 点击「检测环境」→ 输出红 / 黄 / 绿合规灯与评分
+1. 点击「防封扫描」→ 输出红 / 黄 / 绿合规灯与评分
 2. 查看风险详情（路径、变量名、修复建议）
 3. 一键修复：时区校正、清代理残留、清 Agent 配置……修复前自动备份到 `~/.agent-guard/backups/`
 4. 重新扫描验证；无法自动修的项提供手动指引
@@ -101,7 +115,7 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ### 附加：运行时 Hook 守护
 
-可选能力，不改变「环境合规」主线：为 Cursor、Claude Code、Codex 等接入原生 Hook，高危操作弹窗审批，红线（如 `rm -rf /`、`curl | bash`）直接拒绝；含 40+ 规则、0–100 评分与攻击链检测。
+可选能力，不改变「防封扫描」主线：为 Cursor、Claude Code、Codex 等接入原生 Hook，高危操作弹窗审批，红线（如 `rm -rf /`、`curl | bash`）直接拒绝；含 40+ 规则、0–100 评分与攻击链检测。
 
 ---
 
@@ -113,13 +127,13 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 | Windows | x64 |
 | Linux | 暂不支持 |
 
-安装包 **v1.0.5** 直链：
+安装包 **v1.1.0** 直链：
 
 | 平台 | 下载 |
 |------|------|
-| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg) |
-| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg) |
-| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe) |
+| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg) |
+| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg) |
+| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe) |
 
 更多版本见 [官网下载页](https://www.safeclaude.net/)。
 
@@ -143,12 +157,12 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ## 下载与上手
 
-1. 下载安装（**v1.0.5**）：
-   - [macOS Apple Silicon](https://download.safeclaude.net/1.0.5/AgentGuard-mac-arm64.dmg)
-   - [macOS Intel](https://download.safeclaude.net/1.0.5/AgentGuard-mac-x64.dmg)
-   - [Windows](https://download.safeclaude.net/1.0.5/AgentGuard-setup.exe)
-2. 打开应用 →「环境合规」→「检测环境」
-3. 按提示处理高风险项；Pro 可一键修复后再次扫描验证
+1. 下载安装（**v1.1.0**）：
+   - [macOS Apple Silicon](https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg)
+   - [macOS Intel](https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg)
+   - [Windows](https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe)
+2. 打开应用 →「防封扫描」先跑一轮完整检测
+3. 优先处理红灯；Pro 可一键修复后再次扫描验证
 
 ---
 

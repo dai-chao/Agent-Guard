@@ -2,6 +2,7 @@
 
 - [首页](Home)
 - [快速开始](Getting-Started)
+- [更新日志](Changelog)
 - [系统要求](System-Requirements)
 - [检测项说明](Detection-Items)
 - [修复指南](Repair-Guide)
@@ -13,4 +14,4 @@
 
 ---
 
-[官网下载](https://www.safeclaude.net/)
+[官网下载](https://www.safeclaude.net/#download)

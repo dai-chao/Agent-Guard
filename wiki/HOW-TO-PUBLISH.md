@@ -27,4 +27,5 @@ git push origin master   # 部分仓库默认分支为 main
 |------|-----------|
 | `Home.md` | 首页（必须） |
 | `_Sidebar.md` | 左侧导航（自动生效） |
+| `Changelog.md` | 更新日志 |
 | 其余 `*.md` | 同名页面（`-` 连接多词标题） |
