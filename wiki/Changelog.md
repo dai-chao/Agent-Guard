@@ -1,6 +1,56 @@
 # 更新日志
 
-完整官网说明：[changelog-1.1.0](https://www.safeclaude.net/changelog-1.1.0.html) · [下载](https://www.safeclaude.net/#download)
+完整官网说明：[changelog-1.1.1](https://www.safeclaude.net/changelog-1.1.1.html) · [下载](https://www.safeclaude.net/#download)
+
+---
+
+## v1.1.1（2026-08-25）
+
+**Windows 可用、Skill 同步可靠，本机痕迹清理装完即用。**
+
+上一版把封号热点检测项推上来之后，反馈最集中的是三件事：Windows 装完接不上守护、Skill「待同步」点了却不收敛、痕迹清理还要用户自己折腾依赖。v1.1.1 把这三条链路打通——装完即可用，同步状态跟得上，清理引擎随包内置。
+
+### Windows 深度修复
+
+- 修正 Hook 识别、命名管道传输与探测错位等问题，Windows 安装后可正常接入守护链路。
+- 提供安装包 / 便携版，按芯片与使用场景选择即可，装完即可用。
+
+### Skill 同步状态修正
+
+- 「待同步」点击同步后可正确收敛，侧栏角标随状态刷新，不再卡在半途。
+- 区分「可自动同步的漂移」与「需手动解决的多方冲突」，该自动修的自动修，该你拍板的才打断你。
+
+### 痕迹清理升级
+
+- 支持文本隐藏字符、图片元数据 / C2PA，以及 PDF、DOCX、EPUB、音视频等容器级溯源清理。
+- Mac / Windows 随包内置本地引擎，无需用户另装服务；清理仍在本机完成，不上云。
+
+### 智能保养全面体检
+
+- 一键按模块体检：Agent → 防封 → 护栏 → Skill → 组件。
+- 弹窗进度与停止，不再误跳成「只跑防封扫描」。
+
+### 体验与门禁打磨
+
+- 账号菜单、版本号展示、顶栏玻璃与 Pro 门禁更顺。
+- 防封规则继续覆盖代理残留、时区出口、明文密钥、非官方端点等高危信号。
+
+### 升级后建议
+
+1. 升级到 v1.1.1（Windows 用户优先验证 Hook / 防护是否已接入）
+2. 打开「智能保养」跑一轮全面体检，或至少先跑「防封扫描」清红灯
+3. 若侧栏仍有 Skill「待同步」，点同步确认可收敛项已落下；多方冲突按提示手动处理
+4. 需要外发材料时，用痕迹清理过一遍再出门；复扫留底
+
+### 下载
+
+| 平台 | 安装包 |
+|------|--------|
+| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.1.1/AgentGuard-mac-arm64.dmg) |
+| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.1.1/AgentGuard-mac-x64.dmg) |
+| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.1.1/AgentGuard-setup.exe) |
+
+Windows 便携版见 [官网下载区](https://www.safeclaude.net/#download)。
 
 ---
 
@@ -41,10 +91,4 @@
 3. 再看防护与隐私扫描，确认运行时守护与敏感信息没有裸奔
 4. 复扫一次留档
 
-### 下载
-
-| 平台 | 安装包 |
-|------|--------|
-| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg) |
-| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg) |
-| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe) |
+完整说明：[changelog-1.1.0](https://www.safeclaude.net/changelog-1.1.0.html)

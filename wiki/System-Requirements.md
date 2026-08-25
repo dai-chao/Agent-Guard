@@ -7,7 +7,9 @@
 | Windows | x64 | 支持 |
 | Linux | — | 暂不支持 |
 
-安装包与版本号以 [官网下载页](https://www.safeclaude.net/#download) 为准。当前推荐 **v1.1.0**，说明见 [更新日志](Changelog)。
+安装包与版本号以 [官网下载页](https://www.safeclaude.net/#download) 为准。当前推荐 **v1.1.1**，说明见 [更新日志](Changelog)。
+
+v1.1.1 起 Windows 提供安装包与便携版；Mac / Windows 痕迹清理引擎随包内置，无需另装服务。
 
 ## 使用建议
 

@@ -28,30 +28,31 @@
 <p align="center"><b><a href="https://www.safeclaude.net/">免费扫描本机环境 →</a></b>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki/Getting-Started">三步上手</a>　·　<a href="https://github.com/dai-chao/Agent-Guard/wiki">Wiki</a></p>
 
 <p align="center">
-  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg"><strong>下载 macOS Apple Silicon</strong></a>
+  <a href="https://download.safeclaude.net/1.1.1/AgentGuard-mac-arm64.dmg"><strong>下载 macOS Apple Silicon</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg"><strong>下载 macOS Intel</strong></a>
+  <a href="https://download.safeclaude.net/1.1.1/AgentGuard-mac-x64.dmg"><strong>下载 macOS Intel</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe"><strong>下载 Windows</strong></a>
+  <a href="https://download.safeclaude.net/1.1.1/AgentGuard-setup.exe"><strong>下载 Windows</strong></a>
 </p>
 
-<p align="center"><sub>v1.1.0 · 环境扫描免费 · 一键修复需 Pro</sub></p>
+<p align="center"><sub>v1.1.1 · 环境扫描免费 · 一键修复需 Pro</sub></p>
 
 > 做的是本机环境信号治理，**不保证账号绝对安全**，也不提供绕过风控的能力。
 
 ---
 
-## 最新：v1.1.0（2026-08-06）
+## 最新：v1.1.1（2026-08-25）
 
-最近封号又紧，很多手法刚在社区传开，本机里对应的代理残留、中转端点、明文 Key 可能早就躺着了。这版重点就一件事：**新闻里出什么新风险，尽快加进检测项**，别等号没了才发现。
+**Windows 可用、Skill 同步可靠，本机痕迹清理装完即用。**
 
-- **跟进封号热点**：跟踪 Claude / Cursor / Codex 等平台风控与社区复盘，把新环境信号沉淀为可复现检测规则，高危信号覆盖加宽
-- **模块升级一轮**：防封扫描、防护、隐私扫描、系统诊断、调用日志、Skill 整理
-- **修复闭环**：扫完能修的赶紧修，复扫确认绿灯
+- **Windows 深度修复**：Hook 识别 / 命名管道 / 探测错位修正，安装包与便携版装完即可接入守护
+- **Skill 同步可靠**：「待同步」可正确收敛，角标随状态刷新；自动漂移与多方冲突分开处理
+- **痕迹清理升级**：隐藏字符、图片元数据 / C2PA、PDF / DOCX / EPUB / 音视频等；随包内置本地引擎
+- **智能保养**：按模块一键体检（Agent → 防封 → 护栏 → Skill → 组件），不再误跳成只跑防封
 
-升级后建议：先跑一轮「防封扫描」→ 优先清红灯 → 再复扫一次留底。
+升级后建议：先跑「智能保养」或「防封扫描」→ 清红灯 → 复扫留底。
 
-完整说明：[changelog-1.1.0](https://www.safeclaude.net/changelog-1.1.0.html) · [官网下载](https://www.safeclaude.net/#download)
+完整说明：[changelog-1.1.1](https://www.safeclaude.net/changelog-1.1.1.html) · [官网下载](https://www.safeclaude.net/#download)
 
 ---
 
@@ -76,9 +77,9 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 打开「防封扫描」一键检测。**所有扫描数据留在本机，不上云。**
 
-- 市面主流 Agent 合规画像（持续扩充；v1.1.0 按封号热点加码检测项）
+- 市面主流 Agent 合规画像（持续扩充；封号热点检测项持续加码）
 - **20+** 环境风险信号，高危信号覆盖加宽
-- **一键修复**（Pro）；配套防护、隐私扫描、系统诊断、调用日志、Skill 整理
+- **一键修复**（Pro）；配套防护、隐私扫描、痕迹清理、智能保养、Skill 同步、系统诊断
 
 ### 分层扫描
 
@@ -127,15 +128,15 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 | Windows | x64 |
 | Linux | 暂不支持 |
 
-安装包 **v1.1.0** 直链：
+安装包 **v1.1.1** 直链：
 
 | 平台 | 下载 |
 |------|------|
-| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg) |
-| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg) |
-| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe) |
+| macOS Apple Silicon | [AgentGuard-mac-arm64.dmg](https://download.safeclaude.net/1.1.1/AgentGuard-mac-arm64.dmg) |
+| macOS Intel (x64) | [AgentGuard-mac-x64.dmg](https://download.safeclaude.net/1.1.1/AgentGuard-mac-x64.dmg) |
+| Windows x64 | [AgentGuard-setup.exe](https://download.safeclaude.net/1.1.1/AgentGuard-setup.exe) |
 
-更多版本见 [官网下载页](https://www.safeclaude.net/)。
+Windows 便携版与更多版本见 [官网下载页](https://www.safeclaude.net/#download)。
 
 ---
 
@@ -157,11 +158,11 @@ Agent Guard 做的是**本机环境信号治理**，帮助你发现并清理高�
 
 ## 下载与上手
 
-1. 下载安装（**v1.1.0**）：
-   - [macOS Apple Silicon](https://download.safeclaude.net/1.1.0/AgentGuard-mac-arm64.dmg)
-   - [macOS Intel](https://download.safeclaude.net/1.1.0/AgentGuard-mac-x64.dmg)
-   - [Windows](https://download.safeclaude.net/1.1.0/AgentGuard-setup.exe)
-2. 打开应用 →「防封扫描」先跑一轮完整检测
+1. 下载安装（**v1.1.1**）：
+   - [macOS Apple Silicon](https://download.safeclaude.net/1.1.1/AgentGuard-mac-arm64.dmg)
+   - [macOS Intel](https://download.safeclaude.net/1.1.1/AgentGuard-mac-x64.dmg)
+   - [Windows](https://download.safeclaude.net/1.1.1/AgentGuard-setup.exe)
+2. 打开应用 →「智能保养」全面体检，或先跑「防封扫描」
 3. 优先处理红灯；Pro 可一键修复后再次扫描验证
 
 ---
